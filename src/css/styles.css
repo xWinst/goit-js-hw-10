@@ -18,3 +18,39 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.prop {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.prop span{
+  font-weight: 400;
+  color: #0000ff;
+}
