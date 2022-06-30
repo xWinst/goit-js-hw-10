@@ -23,7 +23,6 @@ function searchCountry(event) {
 }
 
 function renderCountryData(countryData) {
-    reset();
     if (countryData.length > 10) {
         Notify.info(
             'Too many matches found. Please enter a more specific name.'
